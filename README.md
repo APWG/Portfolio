@@ -2,8 +2,8 @@
 
 **Version 1.0.0**
 
-This tool will retreive PHISH information from the Anti-Phishing Working Group, Inc. API and will iterate through subset of pages to gather the information. This tool will also allow you to export the information in various formats i.e. CSV spreadsheet.
+A simple Python example of interacting with the eCX APi to query for the latest phish data.  Because the eCX API uses the HAL+JSON spec in the output users are able to iterate through pages of results matching their query parameters.  To output data in CSV add the `container=csv` key value pair to the URL
 
 ## Copyright
 
-© Alan R Fajardo and APWG, Inc.
+Â© Alan R Fajardo and APWG, Inc.
