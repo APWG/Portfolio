@@ -15,6 +15,8 @@ By default eCX outputs all data in JSON using the HAL+JSON spec, which allows co
   `https://api.ecrimex.net/phish?container=csv`  
   
   Note that the default JSON object contains nested key value pairs that will not flatten into CSV, so the only values returned when CSV is desired are: id, brand, date_discovered, URL, confidence_level, and modified.
+  
+ This example goes a little further with CSV output, and does not use the `container=cvs` parameter, instead it demonstrates how to use Python to convert the output to csv on the fly.
 
 **Developed By...**
 
